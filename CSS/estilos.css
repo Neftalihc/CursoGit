@@ -1,5 +1,5 @@
-body{
-    background-color: rgb(245, 191, 122) ;
+body {
+    background-color: rgb(245, 191, 122);
     color: rgb(124, 11, 11);
 
     display: flex;
@@ -10,7 +10,10 @@ body{
 
     height: 100vh;
     margin: 0;
+
+    animation: cambiarColor 5s infinite alternate;
 }
+
 h1 {
     animation: aparecer 1.5s ease;
 }
@@ -24,5 +27,19 @@ h1 {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes cambiarColor {
+    0% {
+        background-color: rgb(245, 191, 122);
+    }
+
+    50% {
+        background-color: rgb(255, 150, 150);
+    }
+
+    100% {
+        background-color: rgb(150, 200, 255);
     }
 }
