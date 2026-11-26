@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 
     height: 100vh;
     margin: 0;
@@ -41,5 +41,4 @@ h1 {
 
     100% {
         background-color: red;
-    }
-}
+    }}
